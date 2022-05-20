@@ -8,8 +8,10 @@
 </head>
 <body>
     <h1>
-        {{ $message }}
+        about us
     </h1>
-    <a href="{{route('links')}}"> links </a>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolore excepturi illum distinctio accusamus vero culpa eaque praesentium ut natus, incidunt, minus neque odit quibusdam et saepe nisi quod voluptatum!
+    </p>
 </body>
 </html>

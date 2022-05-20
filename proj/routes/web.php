@@ -20,3 +20,15 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 })->name('home');
+
+Route::get('/links', function(){
+    return view('links');
+})->name('links');
+
+Route::get('/about', function(){
+    return view('about');
+})->name('about');
+
+Route::get('/welcome', function(){
+    return view('welcome');
+})->name('welcome');
